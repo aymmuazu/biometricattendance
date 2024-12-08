@@ -10,4 +10,9 @@ class EntrollmentController extends Controller
     {
         return view('dashboard.entrollment');
     }
+
+    public function viewEntroll($student, $reg_no)
+    {
+        return view('dashboard.viewentroll');
+    }
 }

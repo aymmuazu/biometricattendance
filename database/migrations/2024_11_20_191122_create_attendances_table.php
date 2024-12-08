@@ -13,9 +13,7 @@ return new class extends Migration
     {
         Schema::create('attendances', function (Blueprint $table) {
             $table->id();
-            
-
-            $table->status('completed');
+            $table->string('status');
             $table->timestamps();
         });
     }

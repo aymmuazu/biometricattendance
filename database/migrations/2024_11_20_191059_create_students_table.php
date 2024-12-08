@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('course_name');
             $table->integer('level');
             $table->string('reg_no');
-            $table->integer('full_name');
+            $table->string('full_name');
             $table->string('passport');
             $table->string('status')->default('active');
             $table->timestamps();

@@ -11,7 +11,14 @@
   <link href="/assets/DataTables/datatables.min.css" rel="stylesheet">
   <script src="/assets/DataTables/datatables.min.js"></script>
 
+  <script src="/fingerprint/js/es6-shim.js"></script>
+  <script src="/fingerprint/js/websdk.client.bundle.min.js"></script>
+  <script src="/fingerprint/js/fingerprint.sdk.min.js"></script>
+  <script src="/fingerprint/js/custom.js"></script>
+
   <title>@yield('title') - {{ getenv('APP_NAME') }}</title>
+
+  <link rel="stylesheet" href="/fingerprint/custom.css">
 
   <link href="/assets/select2/select2.min.css" rel="stylesheet" />
   <script src="/assets/select2/select2.min.js"></script>
@@ -74,7 +81,7 @@
         </div>
     </div>
   </div>
-  
+
   <script src="/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="/assets/js/sidebarmenu.js"></script>
   <script src="/assets/js/app.min.js"></script>
